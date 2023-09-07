@@ -669,6 +669,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -679,10 +683,6 @@ video {
 
 .mr-3 {
   margin-right: 0.75rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .mt-2 {
@@ -711,14 +711,6 @@ video {
 
 .mt-\[-10\%\] {
   margin-top: -10%;
-}
-
-.ml-\[17\%\] {
-  margin-left: 17%;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 
 .block {
@@ -757,12 +749,12 @@ video {
   min-height: 100vh;
 }
 
-.w-6 {
-  width: 1.5rem;
+.w-10 {
+  width: 2.5rem;
 }
 
-.w-7 {
-  width: 1.75rem;
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-\[100\%\] {
@@ -775,10 +767,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .max-w-sm {
@@ -1192,12 +1180,16 @@ html{
     right: 5%;
   }
 
+  .sm\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .sm\:ml-\[5\%\] {
     margin-left: 5%;
   }
 
-  .sm\:mt-2 {
-    margin-top: 0.5rem;
+  .sm\:mt-0 {
+    margin-top: 0px;
   }
 
   .sm\:mt-5 {
@@ -1214,18 +1206,6 @@ html{
 
   .sm\:mt-\[-5\%\] {
     margin-top: -5%;
-  }
-
-  .sm\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .sm\:mt-0 {
-    margin-top: 0px;
-  }
-
-  .sm\:mb-0 {
-    margin-bottom: 0px;
   }
 
   .sm\:flex {
@@ -1248,16 +1228,16 @@ html{
     gap: 18rem;
   }
 
-  .sm\:pt-10 {
-    padding-top: 2.5rem;
+  .sm\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .sm\:pt-0 {
     padding-top: 0px;
   }
 
-  .sm\:pb-0 {
-    padding-bottom: 0px;
+  .sm\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .sm\:text-\[26px\] {
@@ -1279,24 +1259,12 @@ html{
 }
 
 @media (min-width: 768px) {
-  .md\:ml-\[15\%\] {
-    margin-left: 15%;
-  }
-
-  .md\:ml-\[17\%\] {
-    margin-left: 17%;
-  }
-
   .md\:mt-10 {
     margin-top: 2.5rem;
   }
 
   .md\:mt-20 {
     margin-top: 5rem;
-  }
-
-  .md\:ml-\[8\%\] {
-    margin-left: 8%;
   }
 
   .md\:block {
@@ -1340,14 +1308,6 @@ html{
 
   .lg\:ml-16 {
     margin-left: 4rem;
-  }
-
-  .lg\:ml-\[15\%\] {
-    margin-left: 15%;
-  }
-
-  .lg\:ml-\[17\%\] {
-    margin-left: 17%;
   }
 
   .lg\:block {
@@ -1431,16 +1391,16 @@ html{
 }
 
 @media (min-width: 1280px) {
-  .xl\:mt-\[-2\%\] {
-    margin-top: -2%;
+  .xl\:ml-\[15\%\] {
+    margin-left: 15%;
   }
 
   .xl\:ml-\[17\%\] {
     margin-left: 17%;
   }
 
-  .xl\:ml-\[15\%\] {
-    margin-left: 15%;
+  .xl\:mt-\[-2\%\] {
+    margin-top: -2%;
   }
 
   .xl\:block {
