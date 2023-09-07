@@ -2,7 +2,13 @@
 module.exports = {
   content: ["*.html"],
   theme: {
-    extend: {},
+    extend: {
+
+      fontFamily:{
+        'gilroy':["Gilroy-bold"],
+        'play':["Gilroy-light"]
+      }
+    },
   },
   plugins: [],
 }
